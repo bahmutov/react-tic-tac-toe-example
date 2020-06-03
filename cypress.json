@@ -1,5 +1,7 @@
 {
   "experimentalComponentTesting": true,
   "componentFolder": "src",
-  "testFiles": "**/*spec.*"
+  "testFiles": "**/*spec.*",
+  "viewportHeight": 200,
+  "viewportWidth": 200
 }
