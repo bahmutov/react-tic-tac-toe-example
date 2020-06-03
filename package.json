@@ -1,10 +1,10 @@
 {
   "name": "react-tic-tac-toe-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "React component testing example for Tic-Tac-Toe game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
     "cypress": "4.7.0",
     "cypress-react-unit-test": "4.4.2",
     "react-scripts": "3.4.1"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
